@@ -35,6 +35,7 @@ contract UserContract {
                 return i;
             }
         }
+        revert('User does not exist!');
     }
   
 }
